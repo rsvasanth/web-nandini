@@ -1,0 +1,54 @@
+{
+  "name": "Member",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "created": {
+      "type": "date"
+    },
+    "fullname": {
+      "type": "string"
+    },
+    "partner": {
+      "type": "string"
+    },
+    "package": {
+      "type": "string"
+    },
+    "community": {
+      "type": "string"
+    },
+    "categoryId": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "number"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "nationality": {
+      "type": "string"
+    },
+    "contribution": {
+      "type": "number"
+    },
+    "birthday": {
+      "type": "date"
+    },
+    "status": {
+      "type": "string"
+    },
+    "accountnumber": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

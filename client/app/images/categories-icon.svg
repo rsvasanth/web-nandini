@@ -1,0 +1,22 @@
+<svg width="136" height="136" viewBox="0 0 136 136" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1569 -118)">
+<g id="Group">
+<g id="Ellipse 2">
+<use xlink:href="#path0_fill" transform="translate(1569 118)" fill="#F2F2F2"/>
+</g>
+<g id="categories-icon">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(1618 157)" fill="#BDBDBD"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 136 68C 136 105.555 105.555 136 68 136C 30.4446 136 0 105.555 0 68C 0 30.4446 30.4446 0 68 0C 105.555 0 136 30.4446 136 68Z"/>
+<path id="path1_fill" d="M 21.1795 37.9286L 21.1795 29.5L 12.7077 29.5L 12.7077 46.3571L 21.1795 46.3592L 21.1795 42.1429L 38.1231 42.1429L 38.1231 59L 21.1795 59L 21.1795 50.5714L 8.4718 50.5714L 8.4718 16.8571L 0 16.8571L 0 0L 16.9436 0L 16.9436 16.8571L 12.7077 16.8571L 12.7077 25.2857L 21.1795 25.2857L 21.1795 21.0714L 38.1231 21.0714L 38.1231 37.9286L 21.1795 37.9286Z"/>
+</defs>
+</svg>

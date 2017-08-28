@@ -1,0 +1,15 @@
+{
+  "db": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "admin",
+    "password": "12345678",
+    "name": "db",
+    "connector": "mongodb",
+    "user": "superuser"
+  },
+  "transient": {
+    "name": "transient",
+    "connector": "transient"
+  }
+}

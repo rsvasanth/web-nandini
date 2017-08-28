@@ -1,0 +1,80 @@
+<div class="modal-content">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+    <h4 class="modal-title">Modal Header</h4>
+  </div>
+  <div class="modal-body">
+    <p>{{member.id}} </p>
+    <table class="table">
+
+  <tbody>
+    <tr>
+      <th scope="row">First Name</th>
+      <td>{{member.fullname}}</td>
+
+    </tr>
+    <tr>
+      <th scope="row">Partner Name</th>
+      <td>{{member.partner}}</td>
+
+    </tr>
+    <tr>
+      <th scope="row">Package</th>
+      <td>{{member.package}}</td>
+
+    </tr>
+    <tr>
+      <th scope="row">Account Number</th>
+      <td>{{member.accountnumber}}</td>
+
+    </tr>
+    <tr>
+      <th scope="row">Community</th>
+      <td> {{member.community}}</td>
+
+    </tr>
+    <tr>
+      <th scope="row">Contribution</th>
+      <td>{{member.contribution}}</td>
+
+    </tr>
+    <tr>
+      <th scope="row">Category</th>
+      <td>{{member.categoryId}}</td>
+
+    </tr>
+    <tr>
+      <th scope="row">Date Joined</th>
+      <td>{{member.created | date : 'dd/MM/yyyy'}}</td>
+
+    </tr>
+    <tr>
+      <th scope="row">Mobile / Phone</th>
+      <td>{{member.phone}}</td>
+
+    </tr>
+    <tr>
+      <th scope="row">Date Of Birth</th>
+      <td>{{member.birthday | date : 'dd/MM/yyyy'}}</td>
+
+    </tr>
+    <tr>
+      <th scope="row">Gender</th>
+      <td>{{member.gender}}</td>
+
+    </tr>
+    <tr>
+      <th scope="row">Status</th>
+      <td>{{member.status}}</td>
+
+    </tr>
+    <tr>
+      <th scope="row">Nationality</th>
+      <td>{{member.nationality}}</td>
+
+    </tr>
+  </tbody>
+</table>
+  </div>
+
+</div>

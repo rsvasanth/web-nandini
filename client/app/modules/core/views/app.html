@@ -1,0 +1,23 @@
+
+<div>
+  <div class="wrapper ">
+    <section class="content-header">
+        <navbar></navbar>
+        <div class="container-fluid">
+
+          <ul class="nav navbar-nav dnav">
+            <li class="nav2 "><a ui-sref="app.home">Dashboard</a></li>
+            <li><a class="nav2" ui-sref="app.transaction.index">Transaction</a></li>
+            <li><a class="nav2" ui-sref="app.member.index">Members</a></li>
+            <li><a class="nav2"  ui-sref="app.reports.index">Reports</a></li>
+            <li><a class="nav2"  ui-sref="app.products.list">Products</a></li>
+            <li><a class="nav2" ui-sref="app.users.list">Team</a></li>
+            <li><a class="nav2" ui-sref="app.settings.list">Settings</a></li>
+          </ul>
+        </div>
+    </section>
+    <aside ui-view class="right-side at-view-fade-in at-view-fade-out">
+
+    </aside>
+  </div>
+</div>
